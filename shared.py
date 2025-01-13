@@ -257,9 +257,9 @@ class SharedData:
                 logger.info("EPD type: epd2in13_V2 screen reversed")
                 self.screen_reversed = False
                 self.web_screen_reversed = False
-            elif self.config["epd_type"] == "epd2in13_V3":
+            elif self.config["epd_type"] == "epd2in13_V3":  #modified for SeenGreat 2.13inch E-Paper V1
                 logger.info("EPD type: epd2in13_V3 screen reversed")
-                self.screen_reversed = True
+                self.screen_reversed = False
                 self.web_screen_reversed = True
             elif self.config["epd_type"] == "epd2in13_V4":
                 logger.info("EPD type: epd2in13_V4 screen reversed")
